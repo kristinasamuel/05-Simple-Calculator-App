@@ -74,7 +74,6 @@ export default function Calculator() {
                 value={num1}
                 onChange={handleNum1Change}
                 placeholder="Enter a number"
-                className="border hover:border-black"
               />
             </div>
             <div className="flex flex-col space-y-2">
@@ -85,7 +84,7 @@ export default function Calculator() {
                 value={num2}
                 onChange={handleNum2Change}
                 placeholder="Enter a number"
-                className="border hover:border-black"
+               
               />
             </div>
           </div>
@@ -127,7 +126,6 @@ export default function Calculator() {
                 value={result}
                 placeholder="Result"
                 readOnly
-                className="border hover:border-black"
               />
             </div>
           </div>
