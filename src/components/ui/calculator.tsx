@@ -8,8 +8,6 @@ import {
   CardHeader,
   CardTitle,
   CardContent,
-  CardDescription,
-  CardFooter,
 } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
@@ -119,7 +117,7 @@ export default function Calculator() {
               className="text-2xl font-bold bg-indigo-400 text-gray-700 dark:text-gray-300"
               onClick={divide}
             >
-                           /
+            /
             </Button>
             <div className="flex flex-col space-y-2">
               <Label htmlFor="result">Result</Label>
